@@ -1,6 +1,6 @@
-import { MainGradvideosComponent } from './../main-gradvideos/main-gradvideos.component';
-import { MainImgurComponent } from './../main-imgur/main-imgur.component';
-import { MainSoundboardComponent } from './../main-soundboard/main-soundboard.component';
+import { MainGradvideosComponent } from '../main-gradvideos/main-gradvideos.component';
+import { MainImgurComponent } from '../main-imgur/main-imgur.component';
+import { MainSoundboardComponent } from '../main-soundboard/main-soundboard.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router'

@@ -1,3 +1,4 @@
+import { AudioClip } from '../audio-clip';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -7,16 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AudioCardComponent implements OnInit {
 
-  @Input() cardId: string;
-  audioFileName: string;
+  @Input() audioCard: AudioClip;
+  audioFileUrl: string;
   prefix = "..\\assets\\"
-  fileType = ".wav"
   
   constructor() { }
 
   ngOnInit() {
-    this.audioFileName = this.prefix + this.cardId + this.fileType;
-    // console.log(this.audioFileName);
+    this.audioFileUrl = this.prefix + this.audioCard.id + '.' + this.audioCard.filetype;
   }
 
 }

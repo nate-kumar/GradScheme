@@ -1,7 +1,7 @@
-<mat-list>
-  <div *ngFor="let item of menuItems2">
-    <a mat-button [routerLink]="['/',item.url]" >
-      <p class="full-width">{{ item.name }}</p>
+<mat-list class="clear-padding-top">
+  <div *ngFor="let item of menuItems">
+    <a mat-button [routerLink]="['/',item.url]"  class="menu-item">
+      <h3 class="full-width">{{ item.name }}</h3>
     </a>
     <mat-divider></mat-divider>
   </div>

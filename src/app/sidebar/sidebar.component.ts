@@ -1,4 +1,4 @@
-import { Route } from './../route';
+import { Route } from '../route';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,17 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  menuItems = [
+  menuItems2 = [
     "GatesySoundboard",
     "ImgurRepo", 
     "GradSchemeVideos"
-  ]
+  ];
 
-  menuItems2 = [
+  menuItems = [
     new Route('Gatesy Soundboard', 'GatesySoundboard'),
-    new Route("Imgur Repo", "ImgurRepo"),
-    new Route("Grad Scheme Videos", "GradSchemeVideos")
-  ]
+    new Route('Imgur Repo', 'ImgurRepo'),
+    new Route('Grad Scheme Videos', 'GradSchemeVideos')
+  ];
 
   constructor() { }
 
