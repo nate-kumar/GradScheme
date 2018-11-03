@@ -11,6 +11,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainSoundboardComponent } from './main-soundboard/main-soundboard.component';
 import { MainImgurComponent } from './main-imgur/main-imgur.component';
 import { MainGradvideosComponent } from './main-gradvideos/main-gradvideos.component';
+import { ImageCardComponent } from './main-imgur/image-card/image-card.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MainGradvideosComponent } from './main-gradvideos/main-gradvideos.compo
     SidebarComponent,
     MainSoundboardComponent,
     MainImgurComponent,
-    MainGradvideosComponent
+    MainGradvideosComponent,
+    ImageCardComponent
   ],
   imports: [
     BrowserModule,

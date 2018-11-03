@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AudioClip } from './audio-clip';
+import { AudioClip } from './audio-clip.model';
 
 @Component({
   selector: 'app-main-soundboard',
@@ -12,7 +12,7 @@ export class MainSoundboardComponent implements OnInit {
     1,2,3,4,5
   ]
 
-  cards2 = [
+  audioClips = [
     new AudioClip(1,'Title 1','Subtitle 1','wav'),
     new AudioClip(2,'Title 2','Subtitle 2','wav'),
     new AudioClip(3,'Title 3','Subtitle 3','wav'),

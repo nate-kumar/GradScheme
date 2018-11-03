@@ -1,4 +1,4 @@
-import { AudioClip } from '../audio-clip';
+import { AudioClip } from '../audio-clip.model';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
