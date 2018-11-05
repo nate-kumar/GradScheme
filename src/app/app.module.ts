@@ -12,6 +12,7 @@ import { MainSoundboardComponent } from './main-soundboard/main-soundboard.compo
 import { MainImgurComponent } from './main-imgur/main-imgur.component';
 import { MainGradvideosComponent } from './main-gradvideos/main-gradvideos.component';
 import { ImageCardComponent } from './main-imgur/image-card/image-card.component';
+import { MainImgurMasonryComponent } from './main-imgur-masonry/main-imgur-masonry.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ImageCardComponent } from './main-imgur/image-card/image-card.component
     MainSoundboardComponent,
     MainImgurComponent,
     MainGradvideosComponent,
-    ImageCardComponent
+    ImageCardComponent,
+    MainImgurMasonryComponent
   ],
   imports: [
     BrowserModule,

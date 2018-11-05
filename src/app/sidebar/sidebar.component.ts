@@ -8,12 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  menuItems2 = [
-    "GatesySoundboard",
-    "ImgurRepo", 
-    "GradSchemeVideos"
-  ];
-
   menuItems = [
     new Route('Gatesy Soundboard', 'GatesySoundboard'),
     new Route('Imgur Repo', 'ImgurRepo'),
@@ -23,7 +17,6 @@ export class SidebarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.menuItems2)
   }
 
 }

@@ -1,5 +1,6 @@
 .example-card {
     width: auto;
+    break-inside: avoid;
     // max-width: 400px;
   }
   
@@ -15,4 +16,8 @@
 
   .margin-top {
       margin-top: 16px;
+  }
+
+  .padding-bottom {
+      margin-bottom: 20px;
   }

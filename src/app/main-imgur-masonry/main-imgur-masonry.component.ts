@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { ImageFile } from './image-file.model';
+import { ImageFile } from '../main-imgur/image-file.model';
 
 @Component({
-  selector: 'app-main-imgur',
-  templateUrl: './main-imgur.component.html',
-  styleUrls: ['./main-imgur.component.scss']
+  selector: 'app-main-imgur-masonry',
+  templateUrl: './main-imgur-masonry.component.html',
+  styleUrls: ['./main-imgur-masonry.component.scss']
 })
-export class MainImgurComponent implements OnInit {
+export class MainImgurMasonryComponent implements OnInit {
 
   imageFiles = [
     new ImageFile('Abdollah','Abdollah','','jpg'),
